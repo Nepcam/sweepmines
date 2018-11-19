@@ -13,7 +13,7 @@ function createCells() {
             board.cells.push ({
                 row: i,
                 col: j,
-                isMine: Math.floor (Math.random () * 100) >= 85,
+                isMine: Math.floor (Math.random () * 100) >= 85, //Random placement of mines
                 isMarked: false,
                 hidden: true,
                 surroundingMines: 0,
